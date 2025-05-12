@@ -1,0 +1,14 @@
+[
+  {
+    "cve_id": "CVE-2024-1234",
+    "description": "SQL Injection vulnerability in login form.",
+    "severity": "HIGH",
+    "cvss_score": 8.5
+  },
+  {
+    "cve_id": "CVE-2023-5678",
+    "description": "Cross-site scripting vulnerability in comments module.",
+    "severity": "MEDIUM",
+    "cvss_score": 6.3
+  }
+]
