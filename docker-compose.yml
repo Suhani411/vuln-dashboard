@@ -1,0 +1,15 @@
+services:
+  vuln-db:
+    image: postgres:15
+    container_name: vuln_dashboard_db
+    ports:
+      - "5433:5432"             # map host‑port 5433 → container’s 5432
+    environment:
+      POSTGRES_DB: vuln_dashboard
+      POSTGRES_USER: vuln_user
+      POSTGRES_PASSWORD: 123456789
+    volumes:
+      - pgdata_vuln:/var/lib/postgresql/data
+
+volumes:
+  pgdata_vuln:
